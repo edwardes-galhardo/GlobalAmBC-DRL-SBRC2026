@@ -6,7 +6,7 @@ This repository provides the experimental artifact for the paper:
 
 **"A New Centralized DRL-Based Control Module for Dense Batteryless IoT Networks with Ambient Backscatter"**
 
-The goal of this artifact is to reproduce the main results presented in the paper, particularly the temporal behavior of the network success rate under different control strategies.
+The goal of this artifact is to enable reproducibility of the main results presented in the paper, particularly the temporal behavior of the network success rate under different control strategies.
 
 ---
 
@@ -14,8 +14,8 @@ The goal of this artifact is to reproduce the main results presented in the pape
 
 This artifact reproduces the behavior presented in **Figure 3**, demonstrating:
 
-* Instability in networks without control (baseline)
-* Stabilization using the GlobalAmBC-DRL module
+- Instability in networks without control (baseline)
+- Stabilization using the GlobalAmBC-DRL module
 
 ---
 
@@ -57,7 +57,7 @@ The artifact can be executed on standard environments:
 
 ## Dependencies
 
-Install the required Python libraries:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -105,7 +105,7 @@ Expected result:
 To reproduce the main result of the paper:
 
 ```bash
-./run_experiment.sh
+bash run_experiment.sh
 ```
 
 Or manually:
@@ -174,6 +174,12 @@ docs/reproduction_steps.md
 * The dataset `figure3_data.csv` is provided to ensure **deterministic reproduction** of the published results.
 * The DRL module is included to demonstrate the pipeline structure and system behavior.
 * The artifact reproduces the qualitative behavior of the original experiments without requiring OMNeT++ or full DRL training.
+
+---
+
+## Final Remarks
+
+This artifact was designed to ensure clarity, simplicity, and reproducibility, enabling reviewers to validate the main claims of the paper with minimal effort.
 
 ---
 
