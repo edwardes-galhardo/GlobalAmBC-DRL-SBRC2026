@@ -1,6 +1,6 @@
 # GlobalAmBC-DRL: SBRC 2026 Artifact
 
-## Description
+## Overview
 
 This repository contains the experimental artifacts of the paper:
 
